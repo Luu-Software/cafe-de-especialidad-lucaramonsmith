@@ -13,6 +13,6 @@ if (esEstudiante === "si") {
 }
 
 else {
-    totalPorPersona = cuenta * 0.90
+    totalPorPersona = cuenta / personas
 }
 console.log(`Total por persona: $${totalPorPersona}`);
