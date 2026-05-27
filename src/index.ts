@@ -5,8 +5,8 @@ let esEstudiante: string = preguntar('¿Son estudiantes de ORT? si/no: ');
 let personasTexto: string = preguntar('Dividir la cuenta entre: ');
 
 let totalPorPersona: number = 0; 
-let cuenta: number = parseFloat (totalTexto)
-let personas: number = parseFloat (personasTexto)
+let cuenta: number = Number(totalTexto)
+let personas: number = Number(personasTexto)
 
 if (esEstudiante === "si") {
     totalPorPersona = cuenta * 0.90 / personas 
